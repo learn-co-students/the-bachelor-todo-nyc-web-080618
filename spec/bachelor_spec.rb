@@ -1,4 +1,5 @@
-describe "bachelor" do 
+
+describe "bachelor" do
 
   let(:data) { JSON.parse(File.read('spec/fixtures/contestants.json')) }
 
@@ -70,5 +71,5 @@ describe "bachelor" do
     end
   end
 
-end
 
+end
