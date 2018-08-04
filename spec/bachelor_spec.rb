@@ -1,6 +1,6 @@
-describe "bachelor" do 
+describe "bachelor" do
 
-  let(:data) { JSON.parse(File.read('spec/fixtures/contestants.json')) }
+let(:data) { JSON.parse(File.read('spec/fixtures/contestants.json')) }
 
   describe "#get_first_name_of_season_winner" do
     it "returns 'Tessa' when passed the data and 'season 10'" do
